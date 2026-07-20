@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 
 const links = [
   { label: 'Portfolio', to: '/' },
-  { label: 'Philosophy', to: '/#philosophy' },
+  { label: 'Projects', to: '/projects' },
   { label: 'Practice', to: '/about' },
   { label: 'Contact', to: '/contact' },
 ];
