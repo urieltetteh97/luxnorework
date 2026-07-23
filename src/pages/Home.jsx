@@ -45,7 +45,7 @@ export default function Home() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="font-display text-display-lg-mobile md:text-display-lg text-white mb-8"
           >
-            Redefining the Horizon.
+            Embrace Comfort.
           </motion.h1>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
