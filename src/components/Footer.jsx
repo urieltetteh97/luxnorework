@@ -36,9 +36,12 @@ export default function Footer() {
         <div className="md:col-span-2 mt-12 md:mt-0">
           <h6 className="font-body text-label-caps uppercase text-primary mb-6">Social</h6>
           <ul className="space-y-4">
-            {['Instagram', 'LinkedIn', 'Pinterest'].map((item) => (
+            {['Instagram', 'LinkedIn'].map((item) => (
               <li key={item}>
-                <a className="font-body text-body-md text-on-surface-variant hover:text-primary transition-all" href="#">
+                <a className="font-body text-body-md text-on-surface-variant hover:text-primary transition-all" href="https://www.instagram.com/luxnovategroup/">
+                  {item}
+                </a>
+                <a className="font-body text-body-md text-on-surface-variant hover:text-primary transition-all" href="https://www.linkedin.com/company/luxnovate/">
                   {item}
                 </a>
               </li>
