@@ -1,17 +1,42 @@
+import elohimEnclave from '../assets/elohim enclave.png';
+import crestCourt from '../assets/crest court new final.png';
+
 // Placeholder imagery — swap `image` for real project photography.
 // Unsplash "source" style URLs are used here as stand-ins.
 export const projects = [
   {
-    title: 'Aperture House',
-    location: 'Oslo, Norway',
+    title: 'Elohim Enclave',
+    location: 'Accra, Ghana',
     span: 8,
     aspect: 'aspect-[16/10]',
-    image:
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80',
+    image: elohimEnclave,
   },
   {
     title: 'The Spiral Atrium',
-    location: 'London, UK',
+    location: 'Accra, Ghana',
+    span: 4,
+    aspect: 'aspect-[4/5]',
+    image:
+      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'Crest Court',
+    location: 'Accra, Ghana',
+    span: 4,
+    aspect: 'aspect-[4/5]',
+    image: crestCourt,
+  },
+  {
+    title: 'The Spiral Atrium',
+    location: 'Accra, Ghana',
+    span: 4,
+    aspect: 'aspect-[4/5]',
+    image:
+      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'The Spiral Atrium',
+    location: 'Accra, Ghana',
     span: 4,
     aspect: 'aspect-[4/5]',
     image:
